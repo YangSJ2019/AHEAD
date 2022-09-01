@@ -1,6 +1,8 @@
 # AHEAD
 The official implementation of [AHEAD: A Triple Attention Based Heterogeneous Graph Anomaly Detection Approach](https://arxiv.org/abs/2208.08200)
+
 The datasets are stored in the data branch.
+
 ### Citation
 Please cite [AHEAD](https://arxiv.org/abs/2208.08200) if you use this repository.
 ```
@@ -11,3 +13,8 @@ Please cite [AHEAD](https://arxiv.org/abs/2208.08200) if you use this repository
   year={2022}
 }
 ```
+
+### Questions?
+
+Feel free to open issues in this repository! You can contact Shujie Yang through ``yangshujie at stu.xjtu.edu.cn`` if you have any questions.
+

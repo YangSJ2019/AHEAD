@@ -166,7 +166,7 @@ class HGT(torch.nn.Module):
             for i in range(T_head[node_type].shape[0]):
                 T_head[node_type][i, 0] = weight_type[0] * t_head[node_type][i, 0]
                 T_head[node_type][i, 1] = weight_type[1] * t_head[node_type][i, 1]
-            T_head[node_type] = F.softmax(T_head[node_type], dim=0)
+            T_head[node_type] = F.softmax(T_head[node_type], dim=1)
         for edge_type in edge_index_dict.keys():
             A_head[edge_type] = torch.sigmoid(torch.mm(Z_dict[edge_type[0]], Z_dict[edge_type[2]].T))
 
